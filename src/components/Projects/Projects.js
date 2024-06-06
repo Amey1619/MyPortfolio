@@ -25,7 +25,7 @@ function Projects() {
               title="talk-A-tive"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build a Chat application from scratch using MERN stack with Charka UI for designing and Socket.io for Real-time Chat feature."
               ghLink="https://github.com/Amey1619/Chat-app"
-              demoLink="https://talk-an-tive.netlify.app/"
+              demoLink="https://chat-app-j6nd.onrender.com/"
             />
           </Col>
 
