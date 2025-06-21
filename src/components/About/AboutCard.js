@@ -9,12 +9,19 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Amey Gupta </span>
-            from <span className="purple"> Haryana, India.</span>
+            from <span className="purple"> Delhi, India.</span>
             <br />
-            I am actively learning new skills and applying them.
+            I’m a self-motivated software engineer passionate about backend
+            development and system design.
             <br />
-            I have completed my B.Tech in Infromation Technology from IIIT
-            Sonepat.
+            I recently completed my B.Tech in Information Technology from IIIT
+            Sonepat. During my academic journey, I gained hands-on experience
+            through internships at The Sleep Company and NullClass, where I
+            built scalable backend systems, optimized API performance, and
+            worked with technologies like Node.js, NestJS, Redis, and AWS.
+            <br />
+            I’m continuously learning and applying new skills to develop
+            efficient, production-ready applications.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -31,9 +38,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Hard work works!"{" "}
-          </p>
+          <p style={{ color: "rgb(155 126 172)" }}>"Hard work works!" </p>
           <footer className="blockquote-footer">Amey Gupta</footer>
         </blockquote>
       </Card.Body>

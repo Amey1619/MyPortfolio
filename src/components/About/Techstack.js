@@ -12,10 +12,15 @@ import {
 } from "react-icons/di";
 import {
   SiFirebase,
-  SiDocker,
   SiExpress,
   SiMysql,
   SiRedux,
+  SiTypescript,
+  SiNestjs,
+  SiRedis,
+  SiAmazondynamodb,
+  SiAmazonapigateway,
+  SiAmazonaws,
 } from "react-icons/si";
 
 function Techstack() {
@@ -28,19 +33,34 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazondynamodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonapigateway />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />

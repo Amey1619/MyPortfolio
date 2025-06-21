@@ -26,9 +26,11 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                especially in areas related to{" "}
-                <b className="purple">Frontend.</b>
+                <b className="purple">
+                  Scalable web applications and Products{" "}
+                </b>{" "}
+                and especially in areas related to{" "}
+                <b className="purple">Full stack.</b>
               </i>
               <br />
               <br />
@@ -42,7 +44,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> NestJS && React.js</b>
               </i>
             </p>
           </Col>

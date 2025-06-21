@@ -5,6 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import visualizer from "../../Assets/Projects/visualizer.png";
 import chat from "../../Assets/Projects/talktive.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import reqLimiter from "../../Assets/Projects/reqlimiter.png";
+import easyticket from "../../Assets/Projects/easyticket.png";
 
 function Projects() {
   return (
@@ -26,6 +28,28 @@ function Projects() {
               description="Personal Chat Room or Workspace to share resources and hangout with friends build a Chat application from scratch using MERN stack with Charka UI for designing and Socket.io for Real-time Chat feature."
               ghLink="https://github.com/Amey1619/Chat-app"
               demoLink="https://chat-app-j6nd.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={easyticket}
+              isBlog={false}
+              title="Easy-Ticket"
+              description="Easy-ticketing provides a powerful backend for managing customer support tickets, offering a seamless experience for users and support agents alike"
+              ghLink="https://github.com/Amey1619/Easy-ticketing"
+              demoLink="https://easy-ticketing.onrender.com/api-docs/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reqLimiter}
+              isBlog={false}
+              title="ReqLimiter"
+              description="A lightweight and customizable rate limiting utility built using Redis, Lua, and designed with NestJS-style service architecture — yet usable in any Node.js or JavaScript application"
+              ghLink="https://github.com/Amey1619/ReqLimiter"
+              demoLink="https://www.npmjs.com/package/reqlimiter"
             />
           </Col>
 
